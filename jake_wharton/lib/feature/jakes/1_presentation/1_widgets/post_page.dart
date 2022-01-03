@@ -18,10 +18,7 @@ class PostsPage extends StatelessWidget {
       appBar: AppBar(title: const Text('Jakes Git')),
       body:BlocProvider(
     create: (_) => PostBloc( getDatap:getDatap, networkInfo: sl() )..add(PostFetched()),
-    child:
-
-
-      PostsList(),
+    child:PostsList(),
 
 
 

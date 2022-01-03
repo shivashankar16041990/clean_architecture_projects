@@ -28,7 +28,7 @@ class LocalDataSourceImpl implements LocalDataSource{
   Future<List<Post>> getDataFromLocal(int page_index) async{
 
     try{
-
+await Future.delayed(Duration(milliseconds: 1500));
       final postlist=(await box.getAt(page_index-1))!.postlist;
 
       if(postlist==null){
