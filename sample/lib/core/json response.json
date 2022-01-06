@@ -1,0 +1,37 @@
+{
+  "meta":
+        {"pagination":
+                {"total":1831,"pages":92,"page":1,"limit":20,
+                  "links":{"previous":null,"current":"https://gorest.co.in/public/v1/users?page=1",
+                             "next":"https://gorest.co.in/public/v1/users?page=2"
+                          }
+                }
+        },
+
+
+        "data":[
+                {"id":2772,"name":"Vini Anggraini","email":"Vini123@gmail.com","gender":"female","status":"active"},
+                {"id":2775,"name":"user1641392527.2911096","email":"mail1641392527.2911096@mail.com","gender":"male","status":"active"},
+          {"id":2776,"name":"test_name_1641392552049","email":"test.email1641392552049@15ce.com","gender":"male","status":"active"},
+          {"id":2777,"name":"Desak","email":"Ayu@gmail.com","gender":"female","status":"active"},
+          {"id":2778,"name":"abc","email":"rak@123.com","gender":"male","status":"active"},
+          {"id":2780,"name":"RAZZ0R","email":"razzor@dhcbdb.com","gender":"male","status":"active"},
+          {"id":1932,"name":"sai","email":"saiprasadgoud4@gmail.com","gender":"male","status":"active"},
+          {"id":23,"name":"1111","email":"m@d.co","gender":"male","status":"active"},
+          {"id":1934,"name":"vd","email":"assd2@gmail.com","gender":"male","status":"inactive"},
+          {"id":2195,"name":"Hiba","email":"hiba_manzoor@schumm.com","gender":"female","status":"active"},
+          {"id":1943,"name":"Mann Raghvendra","email":"rsbman1n@xoFf.com","gender":"male","status":"active"},
+          {"id":15,"name":"Udai Padang","email":"jain_udai@konopelski-bins.co","gender":"male","status":"inactive"},
+          {"id":44,"name":"Morgen - 2926","email":"nair_rev_karunanidhi@johnston-gleichner.info","gender":"female","status":"active"},
+          {"id":6,"name":"Leela Bhattathiri","email":"bhattathiri_leela@powlowski-kunze.net","gender":"male","status":"active"},
+          {"id":2209,"name":"Sayyora","email":"tez-test2462@mail.by","gender":"female","status":"active"},
+          {"id":2213,"name":"Tenali gdgdf","email":"fdsafsa.ramakrishna@15ce.com","gender":"male","status":"active"},
+          {"id":2227,"name":"Mann Raghvendra","email":"rsbman1n@UJJr.com","gender":"male","status":"active"},
+          {"id":2228,"name":"Mann Raghvendra","email":"rsbman1n@56u5.com","gender":"male","status":"active"},
+          {"id":2230,"name":"Hello","email":"tnmyfzxcbw@hyzdlakcjo.com","gender":"male","status":"active"},
+          {"id":2239,"name":"Sayyora","email":"tez-test1404@mail.by","gender":"female","status":"active"}]}
+
+
+
+
+{"meta":{"pagination":{"total":1957,"pages":98,"page":2,"limit":20,"links":{"previous":"https://gorest.co.in/public/v1/users?page=1","current":"https://gorest.co.in/public/v1/users?page=2","next":"https://gorest.co.in/public/v1/users?page=3"}}},"data":[{"id":28,"name":"2022_01_05_12_21_26","email":"draupadi_mehrotra@hartmann.com","gender":"female","status":"active"},{"id":2274,"name":"aaa123","email":"aaa123@gmail.com","gender":"male","status":"active"},{"id":2275,"name":"Sayyora","email":"tez-test6957@mail.by","gender":"female","status":"active"},{"id":2277,"name":"T74KPRU6Q","email":"kxusjdha5ri3@gmail.com","gender":"male","status":"active"},{"id":2278,"name":"Sayyora","email":"tez-test2840@mail.by","gender":"female","status":"active"},{"id":2281,"name":"Sayyora","email":"tez-test3313@mail.by","gender":"female","status":"active"},{"id":2282,"name":"Hasanupdated","email":"pespd@gmail.com","gender":"female","status":"active"},{"id":33,"name":"2022_01_05_12_27_18","email":"panicker_shantanu@walsh-rau.co","gender":"male","status":"active"},{"id":2320,"name":"F9K4DYPBQ","email":"k0npue6mdik2@gmail.com","gender":"male","status":"active"},{"id":2322,"name":"VLT72ZF2M","email":"8v6x65meb7qd@gmail.com","gender":"male","status":"active"},{"id":2323,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@gamil.com","gender":"male","status":"active"},{"id":2324,"name":"LVTKILXVL","email":"9cdwxk7ln5qs@gmail.com","gender":"male","status":"active"},{"id":2325,"name":"1N848VQRP","email":"7yi7ekh771a6@gmail.com","gender":"male","status":"active"},{"id":2333,"name":"Sayyora","email":"tez-test3374@mail.by","gender":"female","status":"active"},{"id":2335,"name":"MCRBGMQL5","email":"p8em022ulvrl@gmail.com","gender":"male","status":"active"},{"id":2378,"name":"Sayyora","email":"tez-test63@mail.by","gender":"female","status":"active"},{"id":2380,"name":"Tenali","email":"test@test.com","gender":"male","status":"active"},{"id":2382,"name":"Alexandr","email":"alexandr_qaqqaas@gmail.com","gender":"male","status":"active"},{"id":2383,"name":"Alexandr-Ivan","email":"alexandr_test111@gmail.com","gender":"male","status":"active"},{"id":2384,"name":"Iva-АБрам12","email":"alexandr_test1112@gmail.com","gender":"male","status":"active"}]}
