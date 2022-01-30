@@ -13,8 +13,10 @@ class CircleandButtons extends StatefulWidget {
 }
 
 class _CircleandButtonsState extends State<CircleandButtons> {
+
   @override
   Widget build(BuildContext context) {
+
     var left = context.watch<LeftRightValue>().left;
     var right = context.watch<LeftRightValue>().right;
     var prevright = context.watch<LeftRightValue>().prevright;
@@ -104,31 +106,26 @@ class _CircleandButtonsState extends State<CircleandButtons> {
       {required double right,
       required double left,
       required double prevright}) {
-    double minfont = 12;
-    double maxfont = 24;
-    double difference = (right - prevright);
-    double minvalue = 12 + (difference / 12);
-    double maxvalue = 24 + (difference / 12);
+
+
+
     double prevleft = 100 - prevright;
 
-    double differenceleft = (left - prevleft);
-    double minvalueleft = 12 + (differenceleft / 12);
-    double maxvalueleft = 24 + (differenceleft / 12);
-    print(" minvalueleft $minvalueleft");
-    print("maxvalueleft  $maxvalueleft");
+    /*print(" minvalueleft $minvalueleft");
+    print("maxvalueleft  $maxvalueleft");*/
 
-    print(" minvalueright $minvalue");
-    print("maxvalueright  $maxvalue");
+    print(" begin:(prevleft/8.33)+12 ${(prevleft/8.33)+12}");
+    print(" end:(left/8.33)+12   ${(left/8.33)+12}");
 
     return Stack(
       children: [
         TweenAnimationBuilder<double>(
-            tween: Tween<double>(begin: minvalueleft, end: maxvalueleft),
+            tween: Tween<double>(begin:(prevleft/8.33)+12 , end:(left/8.33)+12 ),
             duration: const Duration(seconds: 2),
             builder: (BuildContext context, double size, Widget? child) {
               return Positioned(
-                left: 5,
-                top: 5 + size * 4,
+                left: 15,
+                top: 30+10.23*(size-12),
                 child: Text.rich(
                   TextSpan(
                     children: <TextSpan>[
@@ -146,12 +143,12 @@ class _CircleandButtonsState extends State<CircleandButtons> {
               );
             }),
         TweenAnimationBuilder<double>(
-            tween: Tween<double>(begin: minvalue, end: maxvalue),
+            tween: Tween<double>(begin: (prevright/2)+12, end:(right/8.33)+12),
             duration: const Duration(seconds: 2),
             builder: (BuildContext context, double size, Widget? child) {
               return Positioned(
-                right: 5,
-                top: 5 + size * 4,
+                right: 15,
+                top: 30+10.23*(size-12),
                 child: Text.rich(
                   TextSpan(
                     children: <TextSpan>[
